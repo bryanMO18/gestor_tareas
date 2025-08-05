@@ -9,6 +9,7 @@ def mostrar_menu():
     print("5. Salir")
 
 def ver_tareas(tareas):
+    print("Estas son tus tareas pendientes:")
     if not tareas:
         print("\nNo hay tareas todavía.")
         return
